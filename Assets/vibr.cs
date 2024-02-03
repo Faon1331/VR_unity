@@ -13,7 +13,7 @@ public class vibr : MonoBehaviour
     void Start()
     {
         XRBaseInteractable interactable = GetComponent<XRBaseInteractable>();
-        interactable.activated.AddListener(triggerhubtik) 
+        interactable.activated.AddListener(triggerhubtik);
     }
 
     // Update is called once per frame
